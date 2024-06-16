@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "nodurability",
+	"version": "${version}",
+	"name": "No Durability",
+	"description": "Removes Durability from Minecraft",
+	"authors": [
+		"AdyTech99"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/nodurability/Logo Dura Copy.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.adytechmc.nodurability.NoDurability"
+		]
+	},
+	"mixins": [
+		"nodurability.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": ">=1.21",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": ""
+	}
+}
